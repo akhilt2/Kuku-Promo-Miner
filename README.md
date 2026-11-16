@@ -7,6 +7,11 @@ This repository contains the complete production solution for **Problem 1: Find 
 
 It automatically ingests raw microdrama screenplays, extracts high-CTR promo moments (20–60 seconds), scores them across dramaturgical retention markers (3-second hook, cliffhanger cut, standalone clarity, and pacing), and ranks them for immediate deployment on TikTok, Instagram Reels, and YouTube Shorts.
 
+| | |
+|---|---|
+| 🌐 **Live App** | [https://kuku-promo-miner.streamlit.app/](https://kuku-promo-miner.streamlit.app/) |
+| 💻 **GitHub Repo** | [https://github.com/akhilt2/Kuku-Promo-Miner](https://github.com/akhilt2/Kuku-Promo-Miner) |
+
 ---
 
 ### 📂 Repository Structure

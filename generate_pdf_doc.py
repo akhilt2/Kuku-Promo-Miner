@@ -281,11 +281,12 @@ def build_pdf(filename="Kuku_Problem_1_Solution_Doc.pdf"):
     story.append(Spacer(1, 4))
 
     # 9. Submission Artifacts & Links
-    story.append(Paragraph("9. Submission Artifacts & Verification", h1_style))
+    story.append(Paragraph("9. Submission Artifacts & Links", h1_style))
     story.append(Paragraph(
-        "• <b>Interactive Dashboard:</b> Streamlit prototype in <code>kuku_promo_miner/app.py</code> with real-time filtering & CSV export.<br/>"
-        "• <b>Raw Outputs Folder:</b> Complete <code>promos_full_dataset.json</code> (96 mined clips across all 50 episodes) and <code>promos_ranking_summary.csv</code>.<br/>"
-        "• <b>Reproducibility:</b> Zero dependencies beyond standard Python, pandas, and streamlit. Can be executed on any unseen show in seconds.",
+        "• <b>Live App (Streamlit):</b> https://kuku-promo-miner.streamlit.app/ — Real-time filtering, promo cards & CSV export.<br/>"
+        "• <b>GitHub Repository:</b> https://github.com/akhilt2/Kuku-Promo-Miner — Full source code, pipeline scripts & raw outputs.<br/>"
+        "• <b>Raw Outputs:</b> <code>promos_full_dataset.json</code> (96 mined clips across all 50 episodes) and <code>promos_ranking_summary.csv</code> in <code>outputs/</code>.<br/>"
+        "• <b>Reproducibility:</b> Zero LLM API costs. Runs on any unseen show in seconds — just point <code>promo_miner.py</code> to a new script folder.",
         body_style
     ))
 
